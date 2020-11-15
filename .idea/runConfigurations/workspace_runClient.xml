@@ -4,7 +4,7 @@
       <env name="MOD_CLASSES" value="RavenUtils%%$PROJECT_DIR$/RavenUtils/build/resources/main:RavenUtils%%$PROJECT_DIR$/RavenUtils/build/classes/java/main" />
       <env name="MCP_MAPPINGS" value="snapshot_20201028-1.16.3" />
       <env name="MCP_VERSION" value="20201102.104115" />
-      <env name="FORGE_VERSION" value="35.0.2" />
+      <env name="FORGE_VERSION" value="35.0.7" />
       <env name="assetIndex" value="1.16" />
       <env name="assetDirectory" value="$USER_HOME$/.gradle/caches/forge_gradle/assets" />
       <env name="nativesDirectory" value="$PROJECT_DIR$/workspace/build/natives" />

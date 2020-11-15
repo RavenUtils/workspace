@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Raven.iml" filepath="$PROJECT_DIR$/.idea/Raven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RavenUtils/Raven.RavenUtils.iml" filepath="$PROJECT_DIR$/.idea/modules/RavenUtils/Raven.RavenUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RavenUtils/Raven.RavenUtils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RavenUtils/Raven.RavenUtils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RavenUtils/Raven.RavenUtils.test.iml" filepath="$PROJECT_DIR$/.idea/modules/RavenUtils/Raven.RavenUtils.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workspace/Raven.workspace.iml" filepath="$PROJECT_DIR$/.idea/modules/workspace/Raven.workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workspace/Raven.workspace.main.iml" filepath="$PROJECT_DIR$/.idea/modules/workspace/Raven.workspace.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workspace/Raven.workspace.test.iml" filepath="$PROJECT_DIR$/.idea/modules/workspace/Raven.workspace.test.iml" />
+    </modules>
+  </component>
+</project>

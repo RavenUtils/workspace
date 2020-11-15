@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="workspace runServer" type="Application" factoryName="Application" singleton="false">
+  <configuration default="false" name="RavenUtils runServer" type="Application" factoryName="Application" singleton="false">
     <envs>
       <env name="MOD_CLASSES" value="RavenUtils%%$PROJECT_DIR$/RavenUtils/build/resources/main:RavenUtils%%$PROJECT_DIR$/RavenUtils/build/classes/java/main" />
       <env name="MCP_MAPPINGS" value="snapshot_20201028-1.16.3" />
@@ -10,12 +10,12 @@
       <env name="MC_VERSION" value="1.16.4" />
     </envs>
     <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting" />
-    <module name="Raven.workspace.main" />
-    <option name="VM_PARAMETERS" value="-Dmixin.env.disableRefMap=true" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workspace/run" />
+    <module name="Raven.RavenUtils.main" />
+    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=SCAN,REGISTRIES,REGISTRYDUMP" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RavenUtils/run" />
     <method v="2">
       <option name="Make" enabled="true" />
-      <option name="Gradle.BeforeRunTask" enabled="true" tasks=":workspace:prepareRunServer" externalProjectPath="$PROJECT_DIR$" />
+      <option name="Gradle.BeforeRunTask" enabled="true" tasks=":RavenUtils:prepareRunServer" externalProjectPath="$PROJECT_DIR$" />
     </method>
   </configuration>
 </component>

@@ -34,8 +34,8 @@ repositories {
 }
 
 version = '1.0'
-group = 'com.yourname.modid' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'modid'
+group = 'com.workspace.workspace' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'workspace'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -84,7 +84,6 @@ minecraft {
                 RavenUtils {
                     source project(':RavenUtils').sourceSets.main
                 }
-
             }
         }
 
@@ -97,7 +96,7 @@ minecraft {
 
             // Recommended logging level for the console
             // property 'forge.logging.console.level', 'debug'
-            args '--all', '--output', file('src/generated/resources/'), '--existing', sourceSets.main.resources.srcDirs[0]
+            args '--all', '--output', file('src/generated/resources/'), '--existing', project(':RavenUtils').sourceSets.main.resources.srcDirs[0]  //sourceSets.main.resources.srcDirs[0]
 
             mods {
                 RavenUtils {
@@ -114,11 +113,14 @@ dependencies {
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    //compileOnly fg.deobf("mezz.jei:jei-${jei_version}:api")
-    //runtimeOnly fg.deobf("mezz.jei:jei-${jei_version}")
+    compileOnly fg.deobf("mezz.jei:jei-${jei_version}:api")
+    runtimeOnly fg.deobf("mezz.jei:jei-${jei_version}")
+    runtimeOnly fg.deobf("mcjty.theoneprobe:TheOneProbe-${top_version}")
     compile fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}") {
         transitive = false
     }
+
+    compile project(':RavenUtils')
 
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"

@@ -34,6 +34,13 @@ workspace/run
 .idea/**/gradle.xml
 .idea/**/libraries
 
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using

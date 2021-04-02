@@ -1,4 +1,5 @@
 RavenUtils/
+RavenApi/
 .gradle
 logs/
 workspace/build

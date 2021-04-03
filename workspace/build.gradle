@@ -66,6 +66,8 @@ minecraft {
             mods {
                 RavenUtils {
                     source project(':RavenUtils').sourceSets.main
+                }
+                RavenApi{
                     source project(':RavenApi').sourceSets.main
                 }
             }
@@ -84,6 +86,8 @@ minecraft {
             mods {
                 RavenUtils {
                     source project(':RavenUtils').sourceSets.main
+                }
+                RavenApi{
                     source project(':RavenApi').sourceSets.main
                 }
             }
@@ -105,6 +109,8 @@ minecraft {
             mods {
                 RavenUtils {
                     source project(':RavenUtils').sourceSets.main
+                }
+                RavenApi{
                     source project(':RavenApi').sourceSets.main
                 }
             }
@@ -129,8 +135,8 @@ dependencies {
         transitive = false
     }
 
-    compile project(':RavenUtils')
     compile project(':RavenApi')
+    compile project(':RavenUtils')
 
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"

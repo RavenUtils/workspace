@@ -1,6 +1,6 @@
 rootProject.name = 'Raven'
-include 'RavenUtils'
 include 'RavenApi'
+include 'RavenUtils'
 
 include 'workspace'
 

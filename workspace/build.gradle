@@ -56,6 +56,7 @@ minecraft {
         client {
             workingDirectory project.file('run')
             properties 'mixin.env.disableRefMap': 'true'
+            arg '-mixin.config="ravenutils.mixins.json"'
 
             // Recommended logging data for a userdev environment
             // property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
